@@ -1,1 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#image-text {
+  margin-top: 100px; 
+  background-color: #DCE0D9;
+  border: 10px ridge #DCE0D9;
+  padding: 10px;
+  border-radius: 1rem;
+  border-width: 35px;
+  text-align: center; 
+}
+
+#image-text img {
+  display: block; 
+  margin: 0 auto; 
+}
+
+#image-text p {
+  text-align: center; 
+  font-size: 0.8rem;
+}
+
+body {
+  border: 5mm solid #FF8C42;
+  background-color: #FFFBFC;
+  font-family: 'Helvetica', sans-serif;
+}
+
+header {
+  background: #30332E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px; 
+  font-family: 'Impact', sans-serif; 
+}
+
+#homepage p {
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #9b2dfb; 
+  margin-top: 40px; 
+  margin-bottom: 20px; 
+  text-align: center;
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+h2::after {
+  content: "";
+  display: block;
+  width: 11rem; 
+  border-bottom: 3px solid #9b2dfb; 
+  margin: 5px auto; 
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.3; 
+  color: #444; 
+  margin: 15px 0;
+  padding-left: 20px;
+  
+}
+
+.banner p {
+  font-size: 1rem;
+  font-style: italic;
+  text-transform: lowercase; 
+}
+
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-align: justify;
+  margin-bottom: 200px; 
+}
+
+nav ul {
+  align-items: center;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke; 
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff00ff; 
+}
+
+#footnotes {
+  border-top: 2px solid #999; 
+  padding-top: 10px; 
+}
+
+#footnotes p {
+  margin: 0; 
+  font-size: 14px; 
+  line-height: 1.2; 
+}
+
+#footnotes p::before {
+  content: attr(id) " "; 
+  font-weight: bold; 
+}
+
+#comments {
+  text-align: center;
+  font-weight: bold;
+}
+
 
